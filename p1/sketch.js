@@ -28,11 +28,8 @@ function setup() {
   line(370, 210, 320, 215);
   line(370, 220, 320, 225);
 
-  // 이미지 파일 저장 (setup에서 한 번만 실행)
-  saveCanvas('20230857_my_cat_art', 'png');
-}
-
 function draw() {
   // draw 함수가 무한 반복되는 것을 멈춥니다.
   noLoop();
+
 }
